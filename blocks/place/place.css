@@ -1,5 +1,6 @@
 .place {
   display: grid;
+  max-width: 984px;
   gap: 40px;
   grid-template-columns: 200px, 1fr;
   grid-template-areas:
@@ -7,4 +8,29 @@
     "title website"
     "image text";
   margin-bottom: 80px;
+}
+.place:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 48px 28px;
+    margin-bottom: 73px;
+    grid-template-areas:
+      "title website"
+      "image text";
+  }
+  .place:first-of-type {
+    grid-template-areas:
+      "title ."
+      "title website"
+      "image text";
+  }
 }

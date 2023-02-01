@@ -4,7 +4,6 @@
   width: 1184px;
   opacity: 30%;
   background-color: #2a2c2f;
-  /* mix-blend-mode: ; */
   z-index: 1;
 }
 
@@ -12,3 +11,15 @@
   opacity: 80%;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    width: 1024px;
+  }
+}
+
+/* @media screen and (max-width: 768px) {
+  .cover__overlay {
+    width: 768px;
+  }
+} */

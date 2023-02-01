@@ -1,8 +1,25 @@
 .intro {
   display: block;
   margin-top: 92px;
+  text-align: left;
   margin-left: 148px;
   margin-right: 442px;
-  text-align: left;
-  font-family: Inter;
+  min-width: 288px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+    margin-right: 286px;
+    width: 690;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 720px;
+    margin-top: 88px;
+  }
 }
