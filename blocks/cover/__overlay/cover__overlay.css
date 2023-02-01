@@ -1,0 +1,14 @@
+.cover__overlay {
+  position: absolute;
+  min-height: 740px;
+  width: 1184px;
+  opacity: 30%;
+  background-color: #2a2c2f;
+  /* mix-blend-mode: ; */
+  z-index: 1;
+}
+
+.cover__overlay:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
