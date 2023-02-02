@@ -1,3 +1,10 @@
 .place__website {
   grid-area: website;
 }
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    width: 288;
+    margin: 0 16px 0 16px;
+  }
+}
