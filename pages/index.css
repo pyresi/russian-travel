@@ -47,5 +47,7 @@
 
 @font-face {
   font-family: "Inter";
-  src: local(Inter);
+  font-weight: 400;
+  src: url("../fonts/Inter/Inter-Regular.woff") format("woff"),
+    url("../fonts/Inter/Inter-Regular.woff2") format("woff2");
 }
