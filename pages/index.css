@@ -20,6 +20,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-span/intro__list-span.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
@@ -45,23 +46,4 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-@font-face {
-  font-family: "Inter";
-  font-weight: 400;
-  src: url("../fonts/Inter/Inter-Regular.woff") format("woff"),
-    url("../fonts/Inter/Inter-Regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Inter";
-  font-weight: 700;
-  src: url("../fonts/Inter/Inter-Bold.woff") format("woff"),
-    url("../fonts/Inter/Inter-Bold.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Inter";
-  font-weight: 900;
-  src: url("../fonts/Inter/Inter-Black.woff") format("woff"),
-    url("../fonts/Inter/Inter-Black.woff2") format("woff2");
-}
+@import url(../fonts/fonts.css);

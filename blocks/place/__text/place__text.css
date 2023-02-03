@@ -6,13 +6,13 @@
   grid-area: text;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .place__text {
     width: 456px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .place__text {
     width: 352px;
   }
@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 767px) {
   .place__text {
+    max-width: 767px;
     width: calc(100% - 32px);
     margin: 0 16px 0 16px;
   }

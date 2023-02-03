@@ -11,7 +11,7 @@
   opacity: 0.8;
 }
 
-.footer__link::last-of-type {
+.footer__link:last-of-type {
   margin-right: 0;
 }
 
@@ -22,7 +22,7 @@
     font-size: 24px;
     line-height: 24px;
   }
-  .footer__link::last-of-type {
+  .footer__link:last-of-type {
     margin-bottom: 0;
   }
 }

@@ -7,13 +7,13 @@
   margin: 245px auto 32px auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .cover__title {
     margin-top: 195px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .cover__title {
     margin-top: 115px;
   }
