@@ -1,7 +1,7 @@
 .place {
   display: grid;
   max-width: 984px;
-  gap: 40px;
+  gap: 48px 40px;
   grid-template-columns: 460px 1fr;
   grid-template-areas:
     "title ."
@@ -48,6 +48,7 @@
       "image"
       "text";
     gap: 32px;
+    margin-bottom: 50px;
   }
   .place:first-of-type {
     grid-template-areas:
